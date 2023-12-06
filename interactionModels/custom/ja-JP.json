@@ -1,0 +1,42 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [
+            {
+              "name": "talk",
+              "type": "AMAZON.Language"
+            }
+          ],
+          "name": "ChatGPTQueryIntent",
+          "samples": [
+            "{talk}"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "相棒"
+    }
+  }
+}

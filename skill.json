@@ -1,0 +1,41 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:023290362890:function:a33e6cc1-a0a7-4829-801c-8fb48c9b5140:Release_0"
+        },
+        "interfaces": [],
+        "locales": {},
+        "regions": {
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:023290362890:function:a33e6cc1-a0a7-4829-801c-8fb48c9b5140:Release_0"
+            }
+          },
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:023290362890:function:a33e6cc1-a0a7-4829-801c-8fb48c9b5140:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:023290362890:function:a33e6cc1-a0a7-4829-801c-8fb48c9b5140:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "publishingInformation": {
+      "distributionCountries": [],
+      "isAvailableWorldwide": true,
+      "locales": {
+        "ja-JP": {
+          "name": "AIBO"
+        }
+      },
+      "testingInstructions": "Sample Testing Instructions."
+    }
+  }
+}
